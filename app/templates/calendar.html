@@ -1,0 +1,9 @@
+<html>
+<body>
+<h1>Calendar for {{ number_of_teams }} teams</h1>
+<p>
+{% for jornada in calendar %}
+    {{ ' '.join(jornada) }}<br>
+{% endfor %}
+</body>
+</html>
